@@ -51,7 +51,7 @@ organization = g.get_organization("ComparativeComprehension")
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="toyfactory",
+  password="",
 )
 mycursor = mydb.cursor()
 
