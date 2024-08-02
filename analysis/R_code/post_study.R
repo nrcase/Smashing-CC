@@ -1,5 +1,0 @@
-library(data.table)
-library(psych)
-dt <- fread("/Users/nrcase/research/cc-repo/cc/statistics/files/post_study.csv")
-print(dt)
-print(describe(dt))

@@ -13,8 +13,8 @@ str(dt)
 model <- lm(AvgAcc ~ Modality, data = dt)
 print(summary(model))
 
-K <- matrix(c(0, 1,0,0,-1),1)
-t <- glht(model, linfct = K)
-print(summary(t))
+#K <- matrix(c(0, 1,0,0,-1),1)
+#t <- glht(model, linfct = K)
+#print(summary(t))
 
 
